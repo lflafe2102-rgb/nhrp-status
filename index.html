@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>NHRP Serverstatus</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0f1724;
-      color: #fff;
-      text-align: center;
-      padding-top: 60px;
-    }
-    .dot {
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      display: inline-block;
-      margin-right: 8px;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>NHRP Serverstatus</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #0f1724;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  .status-box {
+    display: inline-block;
+    background: #1f2937;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  a.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 16px;
+    background: #0166ff;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .server-id {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #fbbf24;
+  }
+</style>
 </head>
 <body>
+
+<div class="status-box">
   <h2>🚨 Notruf Hamburg RP</h2>
-<p><span class="dot" style="background:#06d6a0;"></span>🟢 Serverstatus: Online</p>
-  <p>Letzte Aktualisierung: 06.11.2025 18:00</p>
-  <a href="https://www.roblox.com/games/3684383969" target="_blank" style="color:#4da3ff;">Zum Roblox-Spiel ➜</a>
+  <!-- Status: manuell ändern -->
+  <p><span class="dot" style="background:#06d6a0;"></span>🟢 Serverstatus: Online</p>
+  <p>Letzte Aktualisierung: 06.11.2025 20:00</p>
+  <p class="server-id">Server-ID: 751fe339-ff8d-4a58-88d8-0bd276ae2184</p>
+  <a href="https://www.roblox.com/games/3684383969" target="_blank" class="button">Zum Roblox-Spiel ➜</a>
+</div>
+
 </body>
 </html>
+
 
